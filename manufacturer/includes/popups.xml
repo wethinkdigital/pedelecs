@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<popups>
+    <popup for="image_upload">
+	    <text>
+		    The perfect image size is 72dpi (web/screen resolution) measuring 960px by 450px
+	    </text>
+    </popup>
+    <popup for="Dimensions">
+	    <text>
+		    Please enter the dimensions in mm
+	    </text>
+    </popup>
+    <popup for="CircuitQty">
+	    <text>
+		    Please enter  the number of individual circuits
+	    </text>
+    </popup>
+    <popup for="LayerQty">
+	    <text>
+		    Please select the number of copper layers that your pcb has
+	    </text>
+    </popup>
+    <popup for="Service">
+	    <text>
+		    These are the number of working days (Monday to Friday) in which we will manufacture your pcb. Despatch will be on the final manufacturing day. For the current day to count as day one, the order and data must be received before 10.00am. If there is any delay in the engineering process due to the quality of data or if we have to wait for any information from the customer, then we reserve the right to extend the manufacturing time. The order confirmation will not be sent until after the job has been engineered. 
+	    </text>
+    </popup>
+    <popup for="Cu">
+	    <text>
+		    The finished thickness of the outer copper layers
+	    </text>
+    </popup>
+    <popup for="Resist">
+	    <text>
+		    Please select the colour of resist that you require
+	    </text>
+    </popup>
+    <popup for="Finish">
+	    <text>
+		    Please select the finish that you require
+	    </text>
+    </popup>
+    <popup for="Legend">
+	    <text>
+		    Please select the number of sides upon which you have a legend
+	    </text>
+    </popup>
+    <popup for="DRC">
+	    <text>
+		    If you decide against us running Design Rule Checks then we can not be held responsible for the incorrect functionality of the board.
+	    </text>
+    </popup>
+    <popup for="Test">
+	    <text>
+		    If we do not electronically test the circuit board then we can not be held responsible for the incorrect functionality of the board.
+	    </text>
+    </popup>
+    <popup for="IsPanel">
+	    <text>
+		    You require that your pcb is supplied in a panel. Please make sure that you allow for the whole panel size. We will confirm the layout of the panel on our order confirmation. Please note that we may supply scrap circuits as part of the panel.
+	    </text>
+    </popup>
+    <popup for="CircuitsPerPanel">
+	    <text>
+		    Please enter the number of circuits that you want on the panel. We will confirm the layout of the panel on our order confirmation.
+	    </text>
+    </popup>
+    <popup for="PanelDimensions">
+	    <text>
+		    Please allow for the size of the whole panel including any borders or handling bars.
+	    </text>
+    </popup>
+    <popup for="Delivery">
+	    <text>
+		    The boards will be despatched on the final day of manufacture.
+	    </text>
+    </popup>
+</popups>

@@ -1,0 +1,157 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;	
+	line-height: 18px;
+	color: #666666;
+}
+
+h1, h1 a, h1 a:visited {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 46px;
+	line-height: 46px;
+	font-weight: 300;
+	color: #666666;
+	margin: 0 0 24px 0;
+	text-decoration: none;
+}
+
+h2, h2 a, h2 a:visited {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 300;
+	color: #666666;
+	margin: 0 0 16px 0;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: 300;
+	color: #666666;
+	margin: 0 0 12px 0;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 300;
+	color: #666666;
+	margin: 0 0 12px 0;
+}
+
+h5 {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 200;
+	color: #666666;
+	margin: 0 0 12px 0;
+}
+
+h6 {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 200;
+	color: #666666;
+	margin: 0 0 4px 0;
+}
+
+.purplegrad > h1,
+.purplegrad > h2,
+.purplegrad > h3,
+.purplegrad > h4,
+.purplegrad > h5,
+.purplegrad > h6 {
+	color: white;
+}
+
+ul {
+	position: relative;
+	margin: 0px;
+	padding: 0 0 20px 15px;
+}
+
+a, a:visited, a:active {
+	color: #421450;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c0d326 !important;
+	text-decoration: underline;
+}
+
+a.green {
+	color: #c0d326;
+	text-decoration: none;	
+}
+
+a.green:hover {
+	color: #c0d326 !important;
+	text-decoration: underline;
+}
+
+h1.purple a,
+h2.purple a,
+h3.purple a,
+h4.purple a,
+h5.purple a,
+h6.purple a {
+   color: #421450;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+    text-decoration: none;
+}
+
+
+.purplegrad a,
+.purplegrad a:visited,
+.purplegrad a:active {
+    color: white;
+}
+
+.purplegrad a .palegrey,
+.purplegrad a:visited .palegrey,
+.purplegrad a:active .palegrey {
+    color: #666666;
+}
+
+p {
+	margin: 0 0 12px 0;
+}
+
+.purplegrad p {
+    color: white !important;
+}
+
+.palegrey p {
+    color: #666666 !important;
+}
+
+.date {
+	color: #999999;
+}
+
+ul li {
+	text-align: left;
+}
+
+.cufon-loading {
+ visibility: hidden !important;
+}
+
+.section_more, .compare_tab, #comparetable .header, ul.tabs, ul.brands, nav#main {
+	font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+	font-weight: 200px;	
+}

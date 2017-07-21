@@ -1,0 +1,1 @@
+<?php echo 'testload.php loaded'; ?>

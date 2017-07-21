@@ -1,0 +1,99 @@
+.purplegrad {
+    background: #552C62;
+	background: -webkit-gradient(linear, left top, left bottom, from(#6F3C6F), to(#3B1C55)); /* for webkit browsers */
+    background: -webkit-linear-gradient(top, #6F3C6F, #3B1C55);
+    background: -moz-linear-gradient(top, #6F3C6F, #3B1C55);
+    background: -o-linear-gradient(top, #6F3C6F, #3B1C55);
+    background: linear-gradient(to bottom, #6F3C6F, #3B1C55);
+    -pie-background: linear-gradient(to bottom, #6F3C6F, #3B1C55);
+    behavior: url(/wp-content/themes/pedelecs/css/PIE.htc);
+}
+
+.darkpurplegrad {
+    background: #552C62;
+	background: -webkit-gradient(linear, left top, left bottom, from(#673766), to(#422140)); /* for webkit browsers */
+    background: -webkit-linear-gradient(top, #673766, #422140);
+    background: -moz-linear-gradient(top, #673766, #422140);
+    background: -o-linear-gradient(top, #673766, #422140);
+    background: linear-gradient(to bottom, #673766, #422140);
+    -pie-background: linear-gradient(to bottom, #673766, #422140);
+    behavior: url(/wp-content/themes/pedelecs/css/PIE.htc);
+}
+
+input.purplegrad {
+	border: none;
+	color: white;
+	border: 1px solid rgba(210,109,255,0.02);
+	box-sizing: border-box;
+}
+
+.shadowgrad-up {
+    background: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.12)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.12));
+    background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.12));
+    background: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.12));
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.12));
+    -pie-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.12) 100%);
+    behavior: url(/wp-content/themes/pedelecs/css/PIE.htc);
+}
+
+
+.shadowgrad-down {
+    background: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.12)), to(rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.12), rgba(0,0,0,0));
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.12), rgba(0,0,0,0));
+    background: -o-linear-gradient(top, rgba(0,0,0,0.12), rgba(0,0,0,0));
+    background: linear-gradient(to bottom, rgba(0,0,0,0.12), rgba(0,0,0,0));
+    -pie-background: linear-gradient(to bottom, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0) 100%);
+    behavior: url(/wp-content/themes/pedelecs/css/PIE.htc);
+}
+
+.inputgrad {
+    background: none;
+	background: rgb(232,232,232); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(232,232,232,1) 0%, rgba(255,255,255,1) 40%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,232,232,1)), color-stop(40%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,1) 40%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,1) 40%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(255,255,255,1) 40%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(232,232,232,1) 0%,rgba(255,255,255,1) 40%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    -pie-background: linear-gradient(to bottom, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0) 40%);
+    behavior: url(/wp-content/themes/pedelecs/css/PIE.htc);
+}
+
+.palegrey {
+	background-color: #F5F5F5;
+}
+
+.green {
+	background-color: #98ad29;
+}
+
+.palegrey a,
+.palegrey a:visited {
+	color: #421450 !important;
+}
+
+.grey,
+a .grey {
+	color: #666666 !important;
+}
+
+.purple, .purple a, a.purple {
+	color: #421450 !important;
+}
+
+.white, .white a {
+	color: #FFFFFF !important;
+}
+
+.white a:hover {
+	color: #c0d326 !important;
+}
+
+.purple.emboss {
+	text-shadow: 0 1px 0 #815A96;
+}
